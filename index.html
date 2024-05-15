@@ -14,202 +14,73 @@
         align-items: center;
       }
 			.card {
-				width: 625px;
+				width: 450px;
 				display: flex;
 				flex-direction: column;
 				padding: 16px;
 				border-radius: 10px;
         margin-top: 30px;
-        background: linear-gradient(to right, #03040b 0%, #13132b 100%);
-        color: white;
+				border: 2px solid #0A0B4E;
 			}
-			.card-body {
+			.card-title {
 				padding-bottom: 0;
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
 			}
-			.title-container {
-				margin-bottom: 16px;
+			.card-title hr {
+				width: 100%;
+				background-color: #0A0B4E;
+				border: 0;
+				height: 1px;
+			}
+			.card-body {
+				padding-bottom: 0;
 				display: flex;
 				flex-direction: column;
 			}
-      .badge-container {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-        flex-wrap: wrap;
-        gap: 10px 10px;
-        padding-top: 0px;
-      }
-      .badge {
-        flex: 1;
-        height: 25px;
-				display: flex;
-				justify-content: center;
-				border-radius: 5px;
-				max-width: 35%;
-      }
-      .badge img {
-        height: 100%;
-        padding: 0;
-        margin: 0;
-      }
-			.rounded {
-				border-radius: 5px;
-			}
       .card-regards {
         font-size: 1rem;
+				margin-bottom: 3px;
+				color: #0A0B4E;
       }
       .card-regards-secondary {
         font-size: 0.8rem;
-        color: rgba(255, 255, 255, 0.7);
+				color: #775139;
       }
-      .card-title {
+      .card-body-title {
+				color: #0A0B4E;
         font-size: 1.2rem;
+				margin-bottom: 1px;
       }
       .card-text {
         font-size: 1rem;
+				color: #775139;
+				margin-bottom: 1px;
       }
       .card-subtext {
         font-size: 0.6rem;
-				color: rgba(255, 255, 255, 0.7);
+				color: #780030;
       }
     </style>
   </head>
   <body>
     <div class="card">
-      <div class="card-body">
+      <div class="card-title">
         <span class="card-regards">Saludos / Regards</span>
         <span class="card-regards-secondary">Freundliche Gruesse / Sincères Salutations / Matt frendlechen Greiss</span>
-        <hr style="width: 100%" />
+        <hr />
       </div>
       <div class="card-body">
-        <div class="title-container">
-          <span class="card-title">Walter Bernal<span class="card-regards-secondary"> (Mr.)</span></span>
-          <span class="card-text">Software Developer</span>
-          <span class="card-subtext">Electronics Engineer &amp; Quality Management Master</span>
-        </div>
-      </div>
-
-      <div class="card-body">
-        <div class="badge-container">
-          <div class="badge" style="background-color: #1ba1cc">
-            <img
-              src="https://img.shields.io/badge/React-1BA1CC?style=for-the-badge&logo=react&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #0074c9">
-            <img
-              src="https://img.shields.io/badge/TypeScript-0074C9?style=for-the-badge&logo=typescript&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #e34f26">
-            <img
-              src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #1375bb">
-            <img
-              src="https://img.shields.io/badge/CSS3-1375BB?style=for-the-badge&logo=css3"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #47a248">
-            <img
-              src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #44789e">
-            <img
-              src="https://img.shields.io/badge/MySQL-44789E?style=for-the-badge&logo=mysql&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #ab0304">
-            <img
-              src="https://img.shields.io/badge/npm-AB0304?style=for-the-badge&logo=npm&logoColor=white"
-              class="rounded"
-            />
-          </div>
-					<div class="badge" style="background-color: #77bc1f">
-            <img
-              src="https://img.shields.io/badge/Spring-77BC1F?style=for-the-badge&logo=spring&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #404452">
-            <img
-              src="https://img.shields.io/badge/React_Native-404452?style=for-the-badge&logo=react&logoColor=61DBFB"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #097bfd">
-            <img
-              src="https://img.shields.io/badge/SwiftUI-097BFD?style=for-the-badge&logo=swift&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #6db33f">
-            <img
-              src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #339833">
-            <img
-              src="https://img.shields.io/badge/Node.js-339833?style=for-the-badge&logo=node.js&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #e53140">
-            <img
-              src="https://img.shields.io/badge/Angular-E53140?style=for-the-badge&logo=angular"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #087dd7">
-            <img
-              src="https://img.shields.io/badge/Azure-087DD7?style=for-the-badge&logo=microsoft-azure"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #193f67">
-            <img
-              src="https://img.shields.io/badge/Blockchain-193F67?style=for-the-badge&logo=blockchaindotcom"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #ff9900">
-            <img
-              src="https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
-              alt="aws-lambda"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #f7df1e">
-            <img
-              src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=333333"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #437291">
-            <img
-              src="https://img.shields.io/badge/Java-437291?style=for-the-badge&logo=openjdk&logoColor=white"
-              class="rounded"
-            />
-          </div>
-          <div class="badge" style="background-color: #f05138">
-            <img
-              src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white"
-              class="rounded"
-            />
-          </div>
-        </div>
+				<div class="card-body-title">
+					Walter Bernal<span class="card-regards-secondary"> (Mr.)</span>
+				</div>
+				<div class="card-text">
+					Software Developer
+				</div>
+				<div class="card-subtext">
+					Electronics Engineer &amp; Quality Management Master
+				</div>
       </div>
     </div>
   </body>
