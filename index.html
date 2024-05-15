@@ -9,83 +9,50 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
-				display: flex;
-				flex-direction: column;
-				justify-content: left;
-				text-align: start;
-				align-items: flex-start;
-				margin-top: 20px;
+				margin: 0;
+				padding: 0;
       }
-			.card {
-				width: 450px;
-				display: flex;
-				flex-direction: column;
-				padding: 16px;
-				border-radius: 10px;
-        margin-top: 10px;
+			.container {
+				max-width: 450px;
+				margin: 20px auto;
+				padding: 10px;
 				border: 2px solid #0A0B4E;
+				border-radius: 10px;
 			}
-			.card-title {
-				padding-bottom: 0;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-			}
-			.card-title hr {
-				width: 100%;
-				background-color: #780030;
-				border: 0;
-				height: 1px;
-			}
-			.card-body {
-				padding-bottom: 0;
-				display: flex;
-				flex-direction: column;
-			}
-      .card-regards {
-        font-size: 1rem;
-				margin-bottom: 3px;
+			.title {
+				font-size: 1rem;
+				font-weight: bold;
 				color: #0A0B4E;
-      }
-      .card-regards-secondary {
-        font-size: 0.8rem;
+			}
+			.subtitle {
+				font-size: 0.8rem;
 				color: #775139;
-      }
-      .card-body-title {
+			}
+			.name {
+				font-size: 1rem;
+				margin-top: 5px;
 				color: #0A0B4E;
-        font-size: 1.2rem;
-				margin-bottom: 1px;
-      }
-      .card-text {
-        font-size: 1rem;
+			}
+			.position {
+				font-size: 0.8rem;
 				color: #775139;
-				margin-bottom: 1px;
-      }
-      .card-subtext {
-        font-size: 0.6rem;
+				margin-top: 3px;
+			}
+			.extra {
+				font-size: 0.6rem;
 				color: #780030;
-      }
+				margin-top: 3px;
+			}
     </style>
   </head>
   <body>
-		<br />
-    <div class="card">
-      <div class="card-title">
-        <span class="card-regards">Saludos / Regards</span>
-        <span class="card-regards-secondary">Freundliche Gruesse / Sincères Salutations / Matt frendlechen Greiss</span>
-        <hr />
-      </div>
-      <div class="card-body">
-				<div class="card-body-title">
-					Walter Bernal<span class="card-regards-secondary"> (Mr.)</span>
-				</div>
-				<div class="card-text">
-					Software Developer
-				</div>
-				<div class="card-subtext">
-					Electronics Engineer &amp; Quality Management Master
-				</div>
-      </div>
+    <div class="container">
+      <div class="title">Saludos / Regards</div>
+			<div class="subtitle">Freundliche Gruesse / Sincères Salutations / Matt frendlechen Greiss</div>
+			<hr />
+      <div class="name">Walter Bernal<span class="name-sub"> (Mr.)</span></div>
+			<div class="position">Software Developer</div>
+			<div class="extra">Electronics Engineer &amp; Quality Management Master</div>
     </div>
   </body>
 </html>
