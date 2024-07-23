@@ -14,46 +14,50 @@
         align-items: center;
       }
 			.card {
-				width: 625px;
-				display: flex;
-				flex-direction: column;
-				padding: 16px;
-				border-radius: 10px;
-        margin-top: 30px;
-        background: linear-gradient(to right, #03040b 0%, #13132b 100%);
-        color: white;
-			}
-			.card-header {
-				padding-bottom: 0;
+				width: 1032px;
+				height: 258px;
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
+				padding: 16px;
+        margin-top: 30px;
+        background: linear-gradient(to right, #03040b 0%, #13132b 100%);
+        color: white;
 			}
 			.card-body {
 				padding-bottom: 0;
 				display: flex;
 				flex-direction: row;
 				justify-content: space-between;
+				height: 100%;
 			}
 			.title-container {
 				margin-bottom: 16px;
 				display: flex;
 				flex-direction: column;
+				justify-content: top;
 			}
 			.contact-item-container {
 				display: flex;
+				flex-direction: column;
 				width: 50%;
 				align-items: center;
-				justify-content: end;
+				justify-content: space-evenly;
 			}
 			.logo-container {
 				display: flex;
 				align-items: center;
-				justify-content: center;
+				justify-content: end;
 				padding-left: 20px;
+				width: 100%;
 			}
 			.logo-container a img {
-				width: 30px;
+				width: 40px;
+				padding-right: 15px;
+			}
+			.logo-text {
+				font-size: 18px;
+				padding-right: 10px;
 			}
 			.contact-info {
 				font-size: 0.8rem;
@@ -74,7 +78,7 @@
       }
 			.badge-icon {
 				flex: 1;
-				height: 20px;
+				height: 30px;
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -88,7 +92,7 @@
 			}
 			.badge-icon span {
 				text-wrap: nowrap;
-				font-weight: 400;
+				font-size: 1rem;
 			}
       .badge {
         flex: 1;
@@ -110,197 +114,229 @@
         font-size: 1rem;
       }
       .card-regards-secondary {
-        font-size: 0.8rem;
+        font-size: 1.8rem;
         color: rgba(255, 255, 255, 0.7);
       }
       .card-title {
-        font-size: 1.2rem;
+        font-size: 2.6rem;
+				padding-bottom: 15px;
       }
       .card-text {
-        font-size: 1rem;
+        font-size: 1.4rem;
       }
       .card-subtext {
-        font-size: 0.6rem;
+        font-size: 1.3rem;
 				color: rgba(255, 255, 255, 0.7);
       }
     </style>
   </head>
   <body>
     <div class="card">
-      <div class="card-header">
-        <span class="card-regards">Saludos / Regards</span>
-        <span class="card-regards-secondary">Freundliche Gruesse / Sincères Salutations / Matt frendlechen Greiss</span>
-        <hr style="width: 100%" />
-      </div>
       <div class="card-body">
         <div class="title-container">
-          <div class="card-title">Walter Bernal<span class="card-regards-secondary"> (Mr.)</span></div>
-          <span class="card-text">Software Developer</span>
-          <span class="card-subtext">Electronics Engineer &amp; Quality Management Master</span>
+          <span class="card-title">Software Developer</span>
+          <span class="card-text">Electronics Engineer &amp; Quality Management Master</span>
         </div>
 				<div class="contact-item-container">
-					<div class="logo-container">
-						<a href="https://linkedin.com/in/walterbernal-dev">
-							<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin"/>
-						</a>
-					</div>
 					<div class="logo-container">
 						<a href="https://github.com/WaltBernalM">
 							<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="github" style="filter: brightness(0) invert(1)grayscale(100%) contrast(100%);"/>
 						</a>
+						<div class="logo-text">github.com/WaltBernalM</div>
 					</div>
 					<div class="logo-container">
-						<a href="tel:+523112040450">
-							<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="phone"/>
+						<a href="#">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" class="rounded"/>
 						</a>
+						<div class="logo-text">walter.bernal.dev@gmail.com</div>
 					</div>
         </div>
       </div>
 
 			<div class="card-badges">
-			<div class="badge-container">
-				<div 
-					class="badge-icon"
-					style="background-color: #e34f267e;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/html-5.svg" class="rounded"/>
-					<span>HTML5</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #1375bb74;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/css-3.svg" class="rounded"/>
-					<span>CSS</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #47a24870;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mongodb-icon.svg" class="rounded"/>
-					<span>MongoDB</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #00d9ff4a;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/react.svg" class="rounded"/>
-					<span>React</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color:#508db9e1;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mysql-icon.svg" class="rounded"/>
-					<span>MySQL</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #ab03036d;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/npm-icon.svg" class="rounded"/>
-					<span>NPM</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #6db33f6f;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/spring-icon.svg" class="rounded"/>
-					<span>Spring</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #ff99003d;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/aws-lambda.svg" class="rounded"/>
-					<span>Lambda</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #40445271;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/react.svg" class="rounded"/>
-					<span>React Native</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #097bfd74;"
-				>
-					<img
-						src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/swift.svg" 
-						class="rounded"
-						style="filter: hue-rotate(195deg);"
-					/>
-					<span>SwiftUI</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #0883ff5b;"
-				>
-					<img
-						src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/material-ui.svg" 
-						class="rounded"
-					/>
-					<span>MaterialUI</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #33983353;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/nodejs-icon.svg" class="rounded"/>
-					<span>Node.js</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #e531403f;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/angular-icon.svg" class="rounded"/>
-					<span>Angular</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #087dd76b;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/microsoft-azure.svg" class="rounded"/>
-					<span>Azure</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #193f67;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/solidity.svg" class="rounded"/>
-					<span>Blockchain</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #f7de1e5f;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/javascript.svg" class="rounded"/>
-					<span>JavaScript</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #4372919f;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/java.svg" class="rounded"/>
-					<span>Java</span>
-				</div>
-				<div 
-					class="badge-icon"
-					style="background-color: #f05038a5;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/swift.svg"/>
-					<span>Swift</span>
-				</div>
-				<div 
-					class="badge-icon" 
-					style="background-color: #0075c974;"
-				>
-					<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/typescript-icon.svg" class="rounded"/>
-					<span>TypeScript</span>
-				</div>
+				<div class="badge-container">
+					<div 
+						class="badge-icon"
+						style="background-color: #e34f267e;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/html-5.svg" class="rounded"/>
+						<span>HTML5</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #1375bb74;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/css-3.svg" class="rounded"/>
+						<span>CSS</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #47a24870;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mongodb-icon.svg" class="rounded"/>
+						<span>MongoDB</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #00d9ff4a;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/react.svg" class="rounded"/>
+						<span>React</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color:#508db9e1;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mysql-icon.svg" class="rounded"/>
+						<span>MySQL</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #ab03036d;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/npm-icon.svg" class="rounded"/>
+						<span>NPM</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #6db33f6f;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/spring-icon.svg" class="rounded"/>
+						<span>Spring</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #ff99003d;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/aws-lambda.svg" class="rounded"/>
+						<span>Lambda</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #40445271;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/react.svg" class="rounded"/>
+						<span>React Native</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #097bfd74;"
+					>
+						<img
+							src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/swift.svg" 
+							class="rounded"
+							style="filter: hue-rotate(195deg);"
+						/>
+						<span>SwiftUI</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #0883ff5b;"
+					>
+						<img
+							src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/material-ui.svg" 
+							class="rounded"
+						/>
+						<span>MaterialUI</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #33983353;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/nodejs-icon.svg" class="rounded"/>
+						<span>Node.js</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #e531403f;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/angular-icon.svg" class="rounded"/>
+						<span>Angular</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #087dd76b;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/microsoft-azure.svg" class="rounded"/>
+						<span>Azure</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #193f67;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/solidity.svg" class="rounded"/>
+						<span>Blockchain</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #f7de1e5f;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/javascript.svg" class="rounded"/>
+						<span>JavaScript</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #4372919f;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/java.svg" class="rounded"/>
+						<span>Java</span>
+					</div>
+					<div 
+						class="badge-icon"
+						style="background-color: #f05038a5;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/swift.svg"/>
+						<span>Swift</span>
+					</div>
+					<div 
+						class="badge-icon" 
+						style="background-color: #0075c974;"
+					>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/typescript-icon.svg" class="rounded"/>
+						<span>TypeScript</span>
+					</div>
+					<!-- <div 
+						class="badge-icon" 
+						style="background-color: #4d7f2e;"
+					>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Minitab_Logo.svg" class="rounded"/>
+						<span>Minitab</span>
+					</div>
+					<div 
+						class="badge-icon" 
+						style="background-color: #cc300d;"
+					>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" class="rounded"/>
+						<span>Matlab</span>
+					</div>
+					<div 
+						class="badge-icon" 
+						style="background-color: #277e54;"
+					>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" class="rounded"/>
+						<span>Excel</span>
+					</div>
+					<div class="badge-icon" style="background-color: #333333;">
+						<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="vda-qmc" class="rounded">
+						<span>Core Tools</span>
+					</div>
+					<div class="badge-icon" style="background-color: #191919;">
+						<img src="https://static.wixstatic.com/media/a66843_d1f0caa8594344a08cc3bfdf2304fd5b~mv2.gif" alt="iatf-16949" class="rounded">
+						<span>IATF 16949</span>
+					</div>
+					<div class="badge-icon" style="background-color: #fff">
+						<img src="https://swadesqms.com/wp-content/uploads/2022/07/Statistical-Process-Control.jpg" alt="SPC">
+						<span style="color: #35A8DA">SPC</span>
+					</div>
+					<div class="badge-icon" style="background-color: #494949">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Vda_logo.svg" alt="vda" height="100%" style="filter: brightness(0) invert(1)grayscale(100%) contrast(100%);">
+					</div>
+					<div class="badge-icon" style="background-color: #EAECEE;">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="SAP">
+					</div>
+				</div> -->
 			</div>
-			</div>
+		</div>
 
       <!-- <div class="card-badges">
         <div class="badge-container">
@@ -390,6 +426,5 @@
           </div>
         </div>
       </div> -->
-    </div>
   </body>
 </html>
