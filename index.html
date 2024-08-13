@@ -14,7 +14,7 @@
         align-items: center;
       }
 			.card {
-				width: 800px;
+				width: 822px;
 				height: auto;
 				display: flex;
 				flex-direction: column;
@@ -40,7 +40,7 @@
 			.contact-item-container {
 				display: flex;
 				flex-direction: column;
-				width: 40%;
+				width: 30%;
 				align-items: center;
 				justify-content: space-evenly;
 			}
@@ -70,36 +70,35 @@
 			}
 			.badge-icon {
 				flex: 1;
-				height: 25px;
+				height: 14px;
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				font-size: 0.7rem;
 				border-radius: 5px;
 				padding: 5px;
-				margin: 3px;
+				margin: 4px;
 			}
 			.badge-icon img {
-				height: 60%;
-				margin-right: 5px;
+				height: 100%;
+				margin-right: 8px;
 			}
 			.badge-icon span {
 				text-wrap: nowrap;
-				font-size: 0.8rem;
+				font-size: 0.9rem;
 			}
 			.rounded {
 				border-radius: 5px;
 			}
 			.card-header {
-				font-size: 2rem;
+				font-size: 2.5rem;
 				padding-bottom: 15px;
 			}
       .card-title {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
 				padding-bottom: 15px;
       }
       .card-text {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
 				padding-bottom: 15px;
       }
       .card-subtext {
@@ -122,20 +121,19 @@
     <div class="card">
       <div class="card-body">
         <div class="title-container">
-          <span class="card-header">Walter Bernal <span style="color: grey; font-size: 1.2rem;">(Mr.)</span></span>
+          <span class="card-header">Walter Bernal <span style="color: #6e6e6e; font-size: 1.6rem;">(Mr.)</span></span>
 					<span class="card-title">Senior Supplier Quality Engineer</span>
           <span class="card-text">Electronics Engineer &amp; Quality Management Master</span>
 					<span class="card-subtext">Full Stack Software Developer</span>
         </div>
 				<div class="contact-item-container">
 					<div class="logo-container">
-						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/whatsapp-icon.svg" class="rounded"/>
-						<div class="logo-text">+52 311 204 0450</div>
+						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/whatsapp-icon.svg"/>
+						<div class="logo-text" style="font-size: 1.3rem;">(+52) 311 204 0450</div>
 					</div>
-
 					<div class="logo-container">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" class="rounded"/>
-						<div class="logo-text">walter.bernal.dev@gmail.com</div>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"/>
+						<div class="logo-text" style="font-size: 1.3rem;">wltrbm@gmail.com</div>
 					</div>
         </div>
       </div>
@@ -143,66 +141,81 @@
 			<hr width="100%" style="padding: 0; margin: 0;">
 
 			<div class="badge-container">
-				<div class="badge-icon" style="background-color: #354A91;">
+				<div class="badge-icon" style="background-color: #1980B5;">
 					<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="aiag" class="rounded">
 					<span>APQP</span>
 				</div>
-				<div class="badge-icon" style="background-color: #354A91;">
+				<div class="badge-icon" style="background-color: #1980B5;">
 					<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="aiag" class="rounded">
 					<span>PPAP</span>
 				</div>
-				<div class="badge-icon" style="background-color: #354A91;">
+				<div class="badge-icon" style="background-color: #1980B5;">
 					<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="aiag" class="rounded">
 					<span>Control Plan</span>
 				</div>
-				<div class="badge-icon" style="background-color: #354A91;">
-					<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="aiag" class="rounded">
+				<div class="badge-icon" style="background-color: #1980B5;">
+					<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="aiag" >
 					<span>SPC</span>
 				</div>
-				<div class="badge-icon" style="background-color: #FB3944;">
-					<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="aiag" class="rounded">
-					<span>PFMEA</span>
-				</div>
-				<div class="badge-icon" style="background-color: #3888B5;">
-					<img src="https://static.wixstatic.com/media/a66843_d1f0caa8594344a08cc3bfdf2304fd5b~mv2.gif" alt="iatf-16949" class="rounded">
-					<span>IATF 16949</span>
+				<div class="badge-icon" style="background: linear-gradient(to right, #D42C31 50%, #2B4693 50%);">
+					<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="aiag" style="padding-right: 5px;">
+					<span>FMEA</span>
 				</div>
 				<div class="badge-icon" style="background-color: #3888B5;">
 					<img src="https://www.aiag.org/Content/Frameworks/Custom/aiag/images/structure/aiag-white.png" alt="cqi-19" class="rounded">
 					<span>CQI-19</span>
 				</div>
-				<div class="badge-icon" style="background-color: #fff">
-					<img src="https://swadesqms.com/wp-content/uploads/2022/07/Statistical-Process-Control.jpg" alt="SPC">
-					<span style="color: #35A8DA">SPC</span>
+				<div class="badge-icon" style="background-color: #013B6E;">
+					<img src="https://static.wixstatic.com/media/a66843_d1f0caa8594344a08cc3bfdf2304fd5b~mv2.gif" alt="iatf-16949" >
+					<span>IATF 16949</span>
 				</div>
-				<div class="badge-icon" style="background-color: #494949">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Vda_logo.svg" alt="vda" height="100%" style="filter: brightness(0) invert(1)grayscale(100%) contrast(100%);">
+				<div class="badge-icon" style="background-color: #a44343">
+					<img src="assets/vda6.3.png" alt="vda" style="filter: brightness(1) contrast(100%) contrast(100%);">
+					<span>Process Audit</span>
 				</div>
-				<div class="badge-icon" style="background-color: #EAECEE;">
+				<div class="badge-icon" style="background-color: #0070F2D0;">
 					<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="SAP">
+					<span>Quality Management</span>
 				</div>
-				<div class="badge-icon" style="background-color: #FF7B00;">
-					<img src="https://www.fluoramics.com/wp-content/uploads/imds-cropped-200x107.png" alt="imds" style="filter: brightness(1) invert(1)grayscale(100%) contrast(100%);">
+				<div class="badge-icon" style="background-color: #0070F2D0;">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="SAP">
+					<span>Materials Management</span>
 				</div>
-				<div class="badge-icon" style="background-color: #b0cfe5;">
-					<img src="https://cdn.worldvectorlogo.com/logos/iso-31.svg" alt="">
-					<span style="color: #006BB6;">19011</span>
+				<div class="badge-icon" style="background-color: #ffffff;">
+					<img src="assets/IMDS.png" alt="imds" style="height: 90%;">
+					<span style="color: #2C3586;">v.12</span>
 				</div>
-				<div class="badge-icon" style="background-color: #33AEE2">
-					<img src="https://leadrp.net/wp-content/uploads/2022/09/GDT-900x600.jpg" alt="">
-					<span>ASME Y14.5</span>
+				<div class="badge-icon" style="background-color: #FFFFFF;">
+					<img src="https://cdn.worldvectorlogo.com/logos/iso-31.svg" alt="iso">
+        <span style="color: #006BB6;">ISO 19011</span>
 				</div>
-				<div class="badge-icon" style="background-color: #277e54;">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" class="rounded"/>
+				<div class="badge-icon" style="background-color: #FFFFFF">
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/American_Society_of_Mechanical_Engineers_logo.svg/1200px-American_Society_of_Mechanical_Engineers_logo.svg.png" alt="GD&T">
+					<span style="color: #40455C;">GD&T</span>
+				</div>
+				<div class="badge-icon" style="background-color: #FFFFFF;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHZU1HgsLw0d1OF0PFPptM3wdVgPFg80Izgg&s" alt="advanced-statistics">
+					<span style="color: #015F6F">Advanced Statistics</span>
+				</div>
+				<div class="badge-icon" style="background-color: #0E7C41;">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" />
 					<span>Excel</span>
 				</div>
-				<div class="badge-icon" style="background-color: #4d7f2e;">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Minitab_Logo.svg" class="rounded"/>
+				<div class="badge-icon" style="background-color: #293B51;">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Minitab_Logo.svg" />
 					<span>Minitab</span>
 				</div>
-				<div class="badge-icon" style="background-color: #cc300d;">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" class="rounded"/>
+				<div class="badge-icon" style="background-color: #0A5F9C;">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" />
 					<span>Matlab</span>
+				</div>
+				<div class="badge-icon" style="background-color: #3a485b;">
+					<img src="https://www.svgrepo.com/show/1699/web-development.svg" alt="web-dev"  style="filter: brightness(0) invert(1)grayscale(100%) contrast(100%);">
+					<span>Web Dev</span>
+				</div>
+				<div class="badge-icon" style="background-color: #3a485b;">
+					<img src="https://cdn-icons-png.flaticon.com/512/7075/7075373.png" alt="mobile-dev"  style="filter: brightness(0) invert(1)grayscale(100%) contrast(100%);">
+					<span>Mobile Dev</span>
 				</div>
 			</div>
 		</div>
