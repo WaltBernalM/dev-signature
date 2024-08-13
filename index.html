@@ -4,121 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signature</title>
-    <style>
-      body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-          sans-serif;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-      }
-			.card {
-				width: 822px;
-				height: auto;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-				padding: 16px;
-        margin-top: 30px;
-        background: linear-gradient(to right, #03040b 0%, #13132b 100%);
-        color: white;
-			}
-			.card-body {
-				padding-bottom: 0;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-				height: 100%;
-			}
-			.title-container {
-				margin-bottom: 16px;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-evenly;
-			}
-			.contact-item-container {
-				display: flex;
-				flex-direction: column;
-				width: 30%;
-				align-items: center;
-				justify-content: space-evenly;
-			}
-			.logo-container {
-				display: flex;
-				align-items: center;
-				justify-content: end;
-				padding-left: 20px;
-				width: 100%;
-			}
-			.logo-container img {
-				width: 25px;
-				padding-right: 15px;
-			}
-			.logo-text {
-				font-size: 18px;
-				padding-right: 10px;
-			}
-			.contact-info {
-				font-size: 0.8rem;
-			}
-			.card-badges {
-				padding-bottom: 0;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-			}
-			.badge-icon {
-				flex: 1;
-				height: 14px;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				border-radius: 5px;
-				padding: 5px;
-				margin: 4px;
-			}
-			.badge-icon img {
-				height: 100%;
-				margin-right: 8px;
-			}
-			.badge-icon span {
-				text-wrap: nowrap;
-				font-size: 0.9rem;
-			}
-			.rounded {
-				border-radius: 5px;
-			}
-			.card-header {
-				font-size: 2.5rem;
-				padding-bottom: 15px;
-			}
-      .card-title {
-        font-size: 1.8rem;
-				padding-bottom: 15px;
-      }
-      .card-text {
-        font-size: 1.4rem;
-				padding-bottom: 15px;
-      }
-      .card-subtext {
-        font-size: 1rem;
-				color: rgba(255, 255, 255, 0.7);
-      }
-
-			.badge-container {
-				display: flex;
-				flex-direction: row;
-				width: 100%;
-				align-items: center;
-				flex-wrap: wrap;
-				justify-content: space-around;
-				padding-top: 10px;
-			}
-    </style>
+		<link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="card">
+			<div class="regards-container">
+				<span class="regards-title">Saludos / Regards</span>
+				<span class="regards-subtitle">
+					Freundliche Gruesse / Sincères Salutations / Matt frendlechen Greiss
+				</span>
+			</div>
       <div class="card-body">
         <div class="title-container">
           <span class="card-header">Walter Bernal <span style="color: #6e6e6e; font-size: 1.6rem;">(Mr.)</span></span>
@@ -127,13 +22,13 @@
 					<span class="card-subtext">Full Stack Software Developer</span>
         </div>
 				<div class="contact-item-container">
-					<div class="logo-container">
-						<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/whatsapp-icon.svg"/>
-						<div class="logo-text" style="font-size: 1.3rem;">(+52) 311 204 0450</div>
+					<div class="contact-item">
+						<img class="contact-item-image" src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/whatsapp-icon.svg"/>
+						<div class="contact-item-text">(+52) 311 204 0450</div>
 					</div>
-					<div class="logo-container">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"/>
-						<div class="logo-text" style="font-size: 1.3rem;">wltrbm@gmail.com</div>
+					<div class="contact-item">
+						<img class="contact-item-image" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"/>
+						<div class="contact-item-text">wltrbm@gmail.com</div>
 					</div>
         </div>
       </div>
@@ -169,25 +64,25 @@
 					<img src="https://static.wixstatic.com/media/a66843_d1f0caa8594344a08cc3bfdf2304fd5b~mv2.gif" alt="iatf-16949" >
 					<span>IATF 16949</span>
 				</div>
+				<div class="badge-icon" style="background-color: #FFFFFF;">
+					<img src="https://cdn.worldvectorlogo.com/logos/iso-31.svg" alt="iso">
+					<span style="color: #006BB6;">ISO 19011</span>
+				</div>
 				<div class="badge-icon" style="background-color: #a44343">
 					<img src="assets/vda6.3.png" alt="vda" style="filter: brightness(1) contrast(100%) contrast(100%);">
 					<span>Process Audit</span>
-				</div>
-				<div class="badge-icon" style="background-color: #0070F2D0;">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="SAP">
-					<span>Quality Management</span>
-				</div>
-				<div class="badge-icon" style="background-color: #0070F2D0;">
-					<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="SAP">
-					<span>Materials Management</span>
 				</div>
 				<div class="badge-icon" style="background-color: #ffffff;">
 					<img src="assets/IMDS.png" alt="imds" style="height: 90%;">
 					<span style="color: #2C3586;">v.12</span>
 				</div>
-				<div class="badge-icon" style="background-color: #FFFFFF;">
-					<img src="https://cdn.worldvectorlogo.com/logos/iso-31.svg" alt="iso">
-        <span style="color: #006BB6;">ISO 19011</span>
+				<div class="badge-icon" style="background-color: #0070F2D0;">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="SAP">
+					<span>QM Module</span>
+				</div>
+				<div class="badge-icon" style="background-color: #0070F2D0;">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg" alt="SAP">
+					<span>MM Module</span>
 				</div>
 				<div class="badge-icon" style="background-color: #FFFFFF">
 					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/American_Society_of_Mechanical_Engineers_logo.svg/1200px-American_Society_of_Mechanical_Engineers_logo.svg.png" alt="GD&T">
@@ -216,6 +111,10 @@
 				<div class="badge-icon" style="background-color: #3a485b;">
 					<img src="https://cdn-icons-png.flaticon.com/512/7075/7075373.png" alt="mobile-dev"  style="filter: brightness(0) invert(1)grayscale(100%) contrast(100%);">
 					<span>Mobile Dev</span>
+				</div>
+				<div class="badge-icon" style="background-color: #FFFFFF;">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxHgLHGJvdLDvEwd6IikTlnzTkAP6Z3PodRA&s" alt="git">
+					<span style="color: #413000">Version Control</span>
 				</div>
 			</div>
 		</div>
